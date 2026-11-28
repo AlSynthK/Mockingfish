@@ -2540,3 +2540,14 @@ up to a third of the stalemates, without a clear result, and the others
 cost knight smothers or add stalemates. Stalemates are about 0.2% of games.
 All three options stay off. Guide: 3.5 rows and a Findings row; status
 page: grid81-85 verdicts and an audit line.
+
+Stalemate review (Nov 28, two independent analysts, Sonnet and Haiku at
+medium effort, one rebuttal round): both keep every stalemate option off.
+Across grid81-85 all ten fix arms were below their own B on knight smothers
+(2.21 vs 2.44 per 100 pooled; per test mean -0.24, t about -3.3, df 4)
+and net zero on stalemates (0.162% vs 0.163%). Pooling NS100 with C300 is
+post hoc and mixes code versions. A root veto of stalemating moves is a
+no-op (the main search already scores them 0). Proving no smother harm of
+4% would need several hundred thousand games per arm, so no stalemate fix
+can meet the default rule: topic closed unless a new design acts at the
+promotion without touching knight lines.
